@@ -1,0 +1,19 @@
+class Moto():
+	""" Atributos __init__ constructor"""
+	def __init__(self, marca, 'AKDS62'):
+		self.marca = marca
+		self.__serie = ''
+		print('Objecto Creado')
+	
+	""" Metodos """
+	def acelerar(self):
+		print('La moto {0} esta acelerando'.format(self.marca))
+
+	def frenar(self):
+		print('La moto {0} se ha detenido'.format(self.marca))
+
+
+
+moto = Moto('vento')
+moto.acelerar()
+moto.frenar()
